@@ -141,5 +141,3 @@ def del_data():
                     data_dict[i] = list(map(lambda x: x.strip(), data_dict[i]))
                     data_dict[i][-1] += '\n'
                     f.write(";".join(data_dict[i]))
-
-del_data()
